@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +14,7 @@
 </head>
 
 <body>
+    
     <!-- skip link -->
     <a href="#main" class="skip">Skip to main</a>
     <!-- start of header -->
@@ -54,25 +56,24 @@
         <section class="hero">
             <div class="content">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/lk-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/lk-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/lk-small.jpg">
+                    <source media="(min-width: 1024px)" srcset="images/jm-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/jm-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/jm-small.jpg">
                     <img class="profile" src="images/lk-xsmall.jpg" alt="This is a picture of me">
                 </picture>
-                <p class="my-name">Lyan Kent</p>
-                <p class="my-location">Branchburg, NJ</p>
+                <p class="my-name">Josef Misterio</p>
+                <p class="my-location">Somerset, NJ</p>
             </div>
         </section>
         <section id="about-me" class="about-me">
             <div class="content">
                 <div class="about-content">
                     <p class="iama">I want to be...</p>
-                    <p class="my-info">a web developer master!</p>
+                    <p class="my-info">Succeed anyway I can</p>
                     <p class="iama">My favorite way to work is...</p>
-                    <p class="my-info">late at night with large headphones and lots of coffee.</p>
+                    <p class="my-info">late at night with NBA Open Court playing in the background and lots of coffee.</p>
                     <p class="iama">In my free time, I like to...</p>
-                    <p class="my-info">run through the park, read sci-fi novels, and redesign my personal site using
-                        whatever new tech I want to learn.</p>
+                    <p class="my-info">play with my dog, watch basketball games, orrun.</p>
                 </div>
             </div>
         </section>
@@ -82,35 +83,35 @@
         </div>
         <!-- start of photo gallery -->
         <section id="pictures" class="gallery">
-            <h1 class="gallery-title">My Abstract Photo Gallery</h1>
+            <h1 class="gallery-title">My Puppy Gallery</h1>
             <figure class="fig1">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-1a-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-1a-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-1a-small.jpg">
-                    <img src="images/fickle-1a-xsmall.jpg" alt="an abstract photo">
+                    <source media="(min-width: 1024px)" srcset="images/heyhowareya-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/heyhowareya-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/heyhowareya.jpg">
+                    <img src="images/heyhowareya-xsmall.jpg" alt="goofyface of milo">
                 </picture>
-                <figcaption>Abstract Photo - Fickle Stream 1</figcaption>
+                <figcaption>Personality Pic</figcaption>
             </figure>
             <hr>
             <figure class="fig2">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-5-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-5-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-5-small.jpg">
-                    <img src="images/fickle-5-xsmall.jpg" alt="an abstract photo">
+                    <source media="(min-width: 1024px)" srcset="images/booptired-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/booptired-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/booptired-small.jpg">
+                    <img src="images/booptired-xsmall.jpg" alt="tired milo">
                 </picture>
-                <figcaption>Abstract Photo - Fickle Stream 5</figcaption>
+                <figcaption> Good Boys Sleep all the time</figcaption>
             </figure>
             <hr>
             <figure class="fig3">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-6-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-6-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-6-small.jpg">
-                    <img src="images/fickle-6-xsmall.jpg" alt="an abstract photo">
+                    <source media="(min-width: 1024px)" srcset="images/outsidelay-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/outsidelay-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/outsidelay-small.jpg">
+                    <img src="images/outsidelay.jpg" alt="outside laying milo">
                 </picture>
-                <figcaption>Abstract Photo - Fickle Stream 6</figcaption>
+                <figcaption>Camo Dog</figcaption>
             </figure>
         </section>
         <!-- end of photo gallery -->
@@ -245,14 +246,27 @@
         <h1>Get in Touch</h1>
         <br class="mobile-first"><br class="mobile-first">
         <div>
-            <form>
+               <form class='contact' method="POST" action="https://formspree.io/dylanvanallen@gmail.com">
                 <fieldset>
-                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
-                    <br class="mobile-first"><br class="mobile-first">
-                    <p>
-                        &nbsp;L E F T&nbsp;&nbsp;E M P T Y&nbsp;&nbsp;O N&nbsp;&nbsp;P U R P O S E&nbsp;
-                    </p>
-                    <br class="mobile-first"><br class="mobile-first">
+                    <legend>Feel free to contact me</legend>
+                    <label for='email'>Email</label>
+                    <br>
+                    <input id='email' type='email' name='email' required aria-required='true' aria-invalid='true' aria-describedby='email_error'>
+                    <br><br>
+                    <label for='message'>Message</label>
+                    <br>
+                    <textarea name="message" placeholder="Test Message"></textarea>
+                    <br><br>
+                    <fieldset>
+                        <legend>I would like a reply</legend>
+                        <input type="radio" id="reply-yes" name="reply" value="yes" checked>
+                        <label for="reply-yes">Yes</label>
+                        <br><br>
+                        <input type="radio" id="reply-no" name="reply" value="no">
+                        <label for="reply-no">No</label>
+                    </fieldset>
+                    <br><br>
+                    <button type="submit">Send Message</button>
                 </fieldset>
             </form>
         </div>
@@ -261,7 +275,7 @@
     <!-- start of footer -->
     <footer>
         <br class="mobile-first"><br class="mobile-first">
-        <p> &copy; 2019 Lyan Kent</p>
+        <p> &copy; 2019 Josef Misterio</p>
     </footer>
     <div class="back-to-top">
         <a href="#">Back to Top</a>
@@ -273,8 +287,6 @@
         let mainNav = document.getElementById('js-menu');
         let navBarToggle = document.getElementById('js-navbar-toggle');
         let symbolToggle = document.getElementById('symbol-toggle');
-
-
         navBarToggle.addEventListener('click', function () {
             mainNav.classList.toggle('active');
             if (symbolToggle.classList.contains('fa-bars')) {
@@ -290,3 +302,4 @@
 </body>
 
 </html>
+
