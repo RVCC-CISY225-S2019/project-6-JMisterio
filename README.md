@@ -5,8 +5,8 @@ The goal of this assignment is to add page navigation to your About Me page. To 
 
 Once the merge is complete, you will be checking your About Me page with real mobile devices. To do this, make sure that the Settings page in your repo is set to use your Master as the GH Pages. See the below as an example.
 
-![GH Pages](https://github.com/JMisterio/nav-demo/blob/master/readme-src/mobile1.png)
-![GH Pages](https://github.com/JMisterio/nav-demo/blob/master/readme-src/mobile2.png)
+![GH Pages](https://github.com/RVCC-CISY225-S2019/project-6-JMisterio/blob/master/readme-src/mobile.PNG)
+![GH Pages](https://github.com/RVCC-CISY225-S2019/project-6-JMisterio/blob/master/readme-src/mobile2.PNG)
 
 
 
